@@ -1,0 +1,64 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin: 0;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+}
+.pesquisa {
+    height: 20px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pesquisas {
+    height: 30px;
+    width: 300px;
+    display: flex;
+}
+.pesquisar {
+    height: 30px;
+    width: 77px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.web22 {
+    height: 50px;
+    width: 50px;
+}
+.escuro {
+    background-color: black;
+    height: 30px;
+    width: 125px;
+    border-radius: 10px;
+}
+.escuro:active body:active {
+    background-color: #121212;
+}
+  body {
+    font-family: Arial;
+    background: white;
+    color: black;
+    transition: 0.4s;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .dark {
+    background: #121212;
+    color: white;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }

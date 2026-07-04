@@ -1,0 +1,15 @@
+p {
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.colortag {
+    background: linear-gradient(10deg, aqua, red, green, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
